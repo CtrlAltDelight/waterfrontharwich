@@ -1,0 +1,104 @@
+.tm-background {
+  background-image: url("../images/dovercourtbay.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+/* Desktop and bigger */
+@media (min-width: 960px) {
+  .tm-navbar-space .tm-navbar {
+    margin-top: 20px;
+    margin-bottom: 90px;
+  }
+  .tm-navbar-space .tm-search {
+    margin-top: -60px;
+    margin-bottom: 90px;
+  }
+  .tm-navbar-space .tm-toolbar-center {
+    margin-top: -40px;
+    margin-bottom: 40px;
+  }
+}
+/* Desktop and bigger */
+@media (min-width: 1220px) {
+  .tm-navbar-space .tm-navbar {
+    margin-top: 40px;
+    margin-bottom: 180px;
+  }
+  .tm-navbar-space .tm-search {
+    margin-top: -150px;
+    margin-bottom: 180px;
+  }
+  .tm-navbar-space .tm-toolbar-center {
+    margin-top: -130px;
+    margin-bottom: 80px;
+  }
+}
+
+.uk-navbar-nav + .uk-navbar-nav,
+.uk-navbar-nav > li:nth-child(n+2) {
+  margin-left: 2px;
+}
+
+
+.uk-overlay-panel h2 {
+  background-color: rgba(27, 23, 23, 0.8);
+  display:inline-block;
+  padding:5px 20px;
+}
+
+.uk-panel-box-valentines {
+	background-color: #FCE2ED;
+	/*background-image: url("anything.jpg");*/
+	color: #000000;
+	padding: 30px;
+	border: 15px solid #FCE2ED;
+	box-shadow: inset 0 0 0 1px #F173A7;
+}
+
+.uk-panel-box-valentines .uk-list-line > li:nth-child(n+2) {
+	margin-top: 5px;
+	padding-top: 5px;
+	border-top: 1px solid #F173A7 !important;
+}
+
+.uk-panel-box-mothers-day {
+	background-color: #F8C7C2;
+	/*background-image: url("anything.jpg");*/
+	color: #000000;
+	padding: 30px;
+	border: 15px solid #F8C7C2;
+	box-shadow: inset 0 0 0 1px #F83D8C;
+}
+
+.uk-panel-box-mothers-day .uk-list-line > li:nth-child(n+2) {
+	margin-top: 5px;
+	padding-top: 5px;
+	border-top: 1px solid #F83D8C !important;
+}
+
+.uk-panel-box-christmas {
+	background-color: #A7BDFF;
+	background-image: url("../images/christmas-bg.jpg");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	color: #000000;
+	padding: 30px;
+	border: 15px solid #A7BDFF;
+	box-shadow: inset 0 0 0 1px #235E6F;
+}
+
+.uk-panel-box-christmas .uk-list-line > li:nth-child(n+2) {
+	margin-top: 5px;
+	padding-top: 5px;
+	border-top: 1px solid #235E6F !important;
+}
+
+.tm-socialbuttons {
+	margin-top: 20px;
+}
+
+fieldset {
+	border: 0px !important;
+}
